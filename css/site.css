@@ -1,0 +1,177 @@
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+	padding: 20px 0;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 300;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 300;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #252525;
+}
+
+input, textarea {
+	border-width: 0;
+	background-color: #ebebeb;
+	padding: 7px;
+}
+
+.header {
+	width: 100%;
+	margin: 15px 0;
+}
+
+.logo {
+	height: 75px;
+}
+
+.consultation-button {
+	padding: 15px;
+	background: #fff790;
+}
+
+.menu {
+	width: 100%;
+	height:  55px;
+	background-color: #ade0ff;
+	text-align: center;
+}
+
+.menu-items {
+  margin: 0 auto;
+}
+
+.menu-item {
+	padding: 15px;
+}
+
+.banner {
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-content {
+	background-color: rgba(0,0,0,.45);
+	padding-bottom: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.about-banner {
+	background-image: url("../img/about-banner.jpg");
+}
+
+.about-banner-content {
+	padding-top: 270px;
+	height:  500px;
+}
+
+.contact-banner {
+	background-image: url("../img/contact-banner.jpg");
+}
+
+.contact-banner-content {
+	padding-top: 70px;
+	height:  250px;
+}
+
+.content {
+	width:  1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-us {
+	margin-bottom: 30px;
+}
+
+.contact-us-form {
+	vertical-align: top;
+	padding-right: 40px;
+}
+
+.contact-us-form td {
+	padding: 3px;
+}
+
+.captcha-image {
+	width: 150px;
+	cursor: pointer;
+}
+
+.contact-us-info-box {
+	vertical-align: top;
+	background-color: #ebebeb;
+	padding: 20px;
+}
+
+.about-us td {
+  vertical-align: top;
+}
+
+.about-us-blurb {
+	padding:  10px 30px;
+}
+
+.about-us-team {
+	padding-bottom: 20px;
+}
+
+.footer {
+	height:  200px;
+}
+
+.footer-info {
+	background-color: #ade0ff;
+	width: 100%;
+}
+
+.footer-info-title {
+	padding: 10px;
+	font-weight: bolder;
+}
+
+.footer-info-item {
+	text-align: center;
+	vertical-align: top;
+	padding: 20px;
+}
+
+.footer-info-item :last-child {
+	margin-bottom: 0;
+}
+
+.footer-info-item table {
+	margin: 0 auto;
+}
+
+.footer-legal {
+	font-size: 8pt;
+	color: #747474;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer-legal a {
+	color: #747474;
+}
