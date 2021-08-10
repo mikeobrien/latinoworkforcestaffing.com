@@ -30,7 +30,11 @@ a {
 	color: #252525;
 }
 
-input, textarea {
+input, select {
+	height: 40px;
+}
+
+input, textarea, select {
 	border-width: 0;
 	background-color: #ebebeb;
 	padding: 7px;
@@ -45,7 +49,8 @@ input, textarea {
 	height: 75px;
 }
 
-.consultation-button {
+.consultation-button,
+.download-application-button {
 	padding: 15px;
 	background: #fff790;
 }
@@ -90,21 +95,130 @@ input, textarea {
 	background-image: url("../img/contact-banner.jpg");
 }
 
+.home-banner {
+	background-image: url("../img/home-banner.jpg");
+}
+
+.employers-banner {
+	background-image: url("../img/employers-banner.jpg");
+}
+
+.employees-banner {
+	background-image: url("../img/employees-banner.png");
+}
+
+.virtual-consultation-banner {
+	width:100%;
+	height: 250px;
+	background-color: #ade0ff;
+	padding: 30px;
+}
+
+.virtual-consultation-banner table {
+	margin: 0 auto;
+}
+
+.virtual-consultation-banner td {
+	vertical-align: top;
+}
+
+.virtual-consultation-icon {
+	width: 162px;
+	height: 162px;
+	border: solid 2px #000;
+	padding: 40px;
+}
+
+.virtual-consultation-banner-blurb {
+	width: 550px;
+	padding-left: 30px;
+}
+
+.virtual-consultation-banner-blurb h4 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.virtual-consultation-banner-button {
+	margin-top: 30px;
+}
+
+.home-panels {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.home-banner-content,
+.employers-banner-content,
+.employees-banner-content {
+	padding-top: 270px;
+	height: 500px;
+}
+
+.home-panels table {
+	margin: 0 auto;
+}
+
+.home-blurb {
+	width: 300px;
+	margin: 0 100px;
+}
+
+.employees {
+	margin-top: 20px;
+}
+
+.employees td {
+	vertical-align: top;
+}
+
+.employer-request-form input,
+.employee-request-form input {
+	width: 300px;
+}
+
+.employer-request-form td,
+.employee-request-form td {
+	padding: 5px;
+}
+
+.employees-info-box {
+	margin-left: 60px;
+	text-align: center;
+	width: 300px;
+	vertical-align: top;
+	padding: 30px 30px 40px 30px; 
+	border-style: solid;
+	border-width: 4px;
+	border-top-color: #ade0ff;
+	border-bottom-color: #ade0ff;
+	border-left-color: #fff790;
+	border-right-color: #fff790;
+}
+
 .contact-banner-content {
 	padding-top: 70px;
 	height:  250px;
 }
 
 .content {
-	width:  1000px;
+	width:  1050px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0 50px 0;
 }
 
-.contact-us {
-	margin-bottom: 30px;
+.jobs-form {
+	text-align: center;
 }
 
+.consultation-request-form input,
+.consultation-request-form select {
+	width: 470px;
+}
+
+.consultation-request-form textarea {
+	width: 960px;
+}
 .contact-us-form {
 	vertical-align: top;
 	padding-right: 40px;

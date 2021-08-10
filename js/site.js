@@ -19,13 +19,20 @@ $(document).ready(function(){
     var resultContainer = $(submit.attr('data-result-selector'));
     var successMessage = submit.attr('data-success-message');
     var failureMessage = submit.attr('data-failure-message');
+    let data = new FormData(form[0]);
 
-    $.post(action, form.serialize())
-        .done(function(msg){
-          resultContainer.text(successMessage);
-        })
-        .fail(function(xhr, status, error) {
-          resultContainer.text(failureMessage);
-        });
+    $.ajax({
+      url: action,
+      type: 'POST',
+      data: data,
+      processData: false,
+      contentType: false,
+      success: function(r) {
+        resultContainer.html('<b style="color: green">' + successMessage + '</b>');
+      },
+      error: function(r) {
+        resultContainer.html('<b style="color: red">' + failureMessage + '</b>');
+      }
+    });
   });
 });
